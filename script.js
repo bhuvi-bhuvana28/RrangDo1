@@ -176,47 +176,82 @@ img3:"image/3Dbuildingplan1.png"},
   ],
 
   pipes: [
-    {image:"image/steelpipe.png",name:"Steel Pipe", price:500},
-    {image:"image/gipipe.png",name:"GI Pipe", price:600},
-    {image:"image/pvcdrainpipe.png",name:"PVC Drain Pipe", price:350},
-    {image:"image/industrialpipe.png",name:"Industrial Pipe", price:900},
-    {image:"image/watersupplypipe.png",name:"Water Supply Pipe", price:450}
+  {image:"image/steelpipe.png", name:"Steel Pipe", price:500, img1:"image/steelpipe.png", img2:"image/steelpipe2.png", img3:"image/steelpipe3.png"},
+  {image:"image/gipipe.png", name:"GI Pipe", price:600, img1:"image/gipipe.png", img2:"image/gipipe2.png", img3:"image/gipipe3.png"},
+  {image:"image/pvcdrainpipe.png", name:"PVC Drain Pipe", price:350, img1:"image/pvcdrainpipe.png", img2:"image/pvcdrainpipe2.png", img3:"image/pvcdrainpipe3.png"},
+  {image:"image/industrialpipe.png", name:"Industrial Pipe", price:900, img1:"image/industrialpipe.png", img2:"image/industrialpipe2.png", img3:"image/industrialpipe3.png"},
+  {image:"image/watersupplypipe.png", name:"Water Supply Pipe", price:450, img1:"image/watersupplypipe.png", img2:"image/watersupplypipe2.png", img3:"image/watersupplypipe3.png"},
+
+  {image:"image/pvcpipe.png", name:"PVC Pipe", price:300, img1:"image/pvcpipe.png", img2:"image/pvcpipe2.png", img3:"image/pvcpipe3.png"},
+  {image:"image/cpvcpipe.png", name:"CPVC Pipe", price:400, img1:"image/cpvcpipe.png", img2:"image/cpvcpipe2.png", img3:"image/cpvcpipe3.png"},
+  {image:"image/upvcpipe.png", name:"UPVC Pipe", price:380, img1:"image/upvcpipe.png", img2:"image/upvcpipe2.png", img3:"image/upvcpipe3.png"},
+  {image:"image/hdpepipe.png", name:"HDPE Pipe", price:550, img1:"image/hdpepipe.png", img2:"image/hdpepipe2.png", img3:"image/hdpepipe3.png"},
+  {image:"image/mdpepipe.png", name:"MDPE Pipe", price:520, img1:"image/mdpepipe.png", img2:"image/mdpepipe2.png", img3:"image/mdpepipe3.png"},
+
+  {image:"image/pexpipe.png", name:"PEX Pipe", price:600, img1:"image/pexpipe.png", img2:"image/pexpipe2.png", img3:"image/pexpipe3.png"},
+  {image:"image/concretepipe.png", name:"Concrete Pipe", price:1000, img1:"image/concretepipe.png", img2:"image/concretepipe2.png", img3:"image/concretepipe3.png"},
+  {image:"image/copperpipe.png", name:"Copper Pipe", price:1200, img1:"image/copperpipe.png", img2:"image/copperpipe2.png", img3:"image/copperpipe3.png"},
+  {image:"image/aluminumpipe.png", name:"Aluminum Pipe", price:1100, img1:"image/aluminumpipe.png", img2:"image/aluminumpipe2.png", img3:"image/aluminumpipe3.png"},
+  {image:"image/castironpipe.png", name:"Cast Iron Pipe", price:950, img1:"image/castironpipe.png", img2:"image/castironpipe2.png", img3:"image/castironpipe3.png"},
+
+  {image:"image/ductileiron.png", name:"Ductile Iron Pipe", price:980, img1:"image/ductileiron.png", img2:"image/ductileiron2.png", img3:"image/ductileiron3.png"},
+  {image:"image/sewerpipe.png", name:"Sewer Pipe", price:700, img1:"image/sewerpipe.png", img2:"image/sewerpipe2.png", img3:"image/sewerpipe3.png"},
+  {image:"image/drainpipe.png", name:"Drainage Pipe", price:360, img1:"image/drainpipe.png", img2:"image/drainpipe2.png", img3:"image/drainpipe3.png"},
+  {image:"image/flexiblepipe.png", name:"Flexible Pipe", price:650, img1:"image/flexiblepipe.png", img2:"image/flexiblepipe2.png", img3:"image/flexiblepipe3.png"},
+  {image:"image/gaspipe.png", name:"Gas Pipe", price:750, img1:"image/gaspipe.png", img2:"image/gaspipe2.png", img3:"image/gaspipe3.png"}
   ],
 
   tools: [
-    {image:"image/drillmachine.png",name:"Drill Machine", price:1800},
-    {image:"image/hammer.png",name:"Hammer", price:250},
-    {image:"image/concretemixer.png",name:"Concrete Mixer", price:12000},
-    {image:"image/safetyhelmet.png",name:"Safety Helmet", price:450},
-    {image:"image/measuringtape.png",name:"Measuring Tape", price:150},
-    {image:"image/placeholder.png", name:"Angle Grinder", price:2200},
-  {image:"image/placeholder.png", name:"Circular Saw", price:3500},
-  {image:"image/placeholder.png", name:"Power Cutter", price:5000},
-  {image:"image/placeholder.png", name:"Hand Saw", price:300},
-  {image:"image/placeholder.png", name:"Screwdriver Set", price:400},
-  {image:"image/placeholder.png", name:"Spanner Set", price:650},
-  {image:"image/placeholder.png", name:"Wrench", price:350},
-  {image:"image/placeholder.png", name:"Tool Kit Box", price:1200},
-  {image:"image/placeholder.png", name:"Ladder", price:2500},
-  {image:"image/placeholder.png", name:"Tile Cutter", price:2800}
+  {image:"image/drillmachine.png", name:"Drill Machine", price:1800, img1:"image/drillmachine.png", img2:"image/drillmachine2.png", img3:"image/drillmachine3.png"},
+  {image:"image/hammer.png", name:"Hammer", price:250, img1:"image/hammer.png", img2:"image/hammer2.png", img3:"image/hammer3.png"},
+  {image:"image/concretemixer.png", name:"Concrete Mixer", price:12000, img1:"image/concretemixer.png", img2:"image/concretemixer2.png", img3:"image/concretemixer3.png"},
+  {image:"image/safetyhelmet.png", name:"Safety Helmet", price:450, img1:"image/safetyhelmet.png", img2:"image/safetyhelmet2.png", img3:"image/safetyhelmet3.png"},
+  {image:"image/measuringtape.png", name:"Measuring Tape", price:150, img1:"image/measuringtape.png", img2:"image/measuringtape2.png", img3:"image/measuringtape3.png"},
+
+  {image:"image/anglegrinder.png", name:"Angle Grinder", price:2200, img1:"image/anglegrinder.png", img2:"image/anglegrinder2.png", img3:"image/anglegrinder3.png"},
+  {image:"image/circularsaw.png", name:"Circular Saw", price:3500, img1:"image/circularsaw.png", img2:"image/circularsaw2.png", img3:"image/circularsaw3.png"},
+  {image:"image/powercutter.png", name:"Power Cutter", price:5000, img1:"image/powercutter.png", img2:"image/powercutter2.png", img3:"image/powercutter3.png"},
+  {image:"image/handsaw.png", name:"Hand Saw", price:300, img1:"image/handsaw.png", img2:"image/handsaw2.png", img3:"image/handsaw3.png"},
+  {image:"image/screwdriverset.png", name:"Screwdriver Set", price:400, img1:"image/screwdriverset.png", img2:"image/screwdriverset2.png", img3:"image/screwdriverset3.png"},
+
+  {image:"image/spannerset.png", name:"Spanner Set", price:650, img1:"image/spannerset.png", img2:"image/spannerset2.png", img3:"image/spannerset3.png"},
+  {image:"image/wrench.png", name:"Wrench", price:350, img1:"image/wrench.png", img2:"image/wrench2.png", img3:"image/wrench3.png"},
+  {image:"image/toolbox.png", name:"Tool Kit Box", price:1200, img1:"image/toolbox.png", img2:"image/toolbox2.png", img3:"image/toolbox3.png"},
+  {image:"image/ladder.png", name:"Ladder", price:2500, img1:"image/ladder.png", img2:"image/ladder2.png", img3:"image/ladder3.png"},
+  {image:"image/tilecutter.png", name:"Tile Cutter", price:2800, img1:"image/tilecutter.png", img2:"image/tilecutter2.png", img3:"image/tilecutter3.png"},
+
+  {image:"image/plier.png", name:"Plier", price:200, img1:"image/plier.png", img2:"image/plier2.png", img3:"image/plier3.png"},
+  {image:"image/leveltool.png", name:"Spirit Level", price:500, img1:"image/leveltool.png", img2:"image/leveltool2.png", img3:"image/leveltool3.png"},
+  {image:"image/chisel.png", name:"Chisel", price:180, img1:"image/chisel.png", img2:"image/chisel2.png", img3:"image/chisel3.png"},
+  {image:"image/paintroller.png", name:"Paint Roller", price:220, img1:"image/paintroller.png", img2:"image/paintroller2.png", img3:"image/paintroller3.png"},
+  {image:"image/safetygloves.png", name:"Safety Gloves", price:120, img1:"image/safetygloves.png", img2:"image/safetygloves2.png", img3:"image/safetygloves3.png"}
   ],
 
   auto: [
-    {image:"image/trucktyre.png",name:"Truck Tyre", price:4500},
-    {image:"image/engineoil.png",name:"Engine Oil", price:900},
-    {image:"image/brakepad.png",name:"Brake Pad", price:1500},
-    {image:"image/battery.png",name:"Battery", price:5500},
-    {image:"image/headlightset.png",name:"Headlight Set", price:2000},
-    {image:"image/placeholder.png", name:"Car Tyre", price:3500},
-  {image:"image/placeholder.png", name:"Bike Tyre", price:1800},
-  {image:"image/placeholder.png", name:"Alloy Wheels", price:8000},
-  {image:"image/placeholder.png", name:"Car Seat Cover", price:2500},
-  {image:"image/placeholder.png", name:"Car Cover", price:1200},
-  {image:"image/placeholder.png", name:"Air Filter", price:600},
-  {image:"image/placeholder.png", name:"Oil Filter", price:400},
-  {image:"image/placeholder.png", name:"Spark Plug", price:250},
-  {image:"image/placeholder.png", name:"Car Battery Charger", price:3000},
-  {image:"image/placeholder.png", name:"Fog Lights", price:1800}
+  {image:"image/trucktyre.png", name:"Truck Tyre", price:4500, img1:"image/trucktyre.png", img2:"image/trucktyre2.png", img3:"image/trucktyre3.png"},
+  {image:"image/engineoil.png", name:"Engine Oil", price:900, img1:"image/engineoil.png", img2:"image/engineoil2.png", img3:"image/engineoil3.png"},
+  {image:"image/brakepad.png", name:"Brake Pad", price:1500, img1:"image/brakepad.png", img2:"image/brakepad2.png", img3:"image/brakepad3.png"},
+  {image:"image/battery.png", name:"Battery", price:5500, img1:"image/battery.png", img2:"image/battery2.png", img3:"image/battery3.png"},
+  {image:"image/headlightset.png", name:"Headlight Set", price:2000, img1:"image/headlightset.png", img2:"image/headlightset2.png", img3:"image/headlightset3.png"},
+  {image:"image/carttyre.png", name:"Car Tyre", price:3500, img1:"image/carttyre.png", img2:"image/carttyre2.png", img3:"image/carttyre3.png"},
+  {image:"image/biketyre.png", name:"Bike Tyre", price:1800, img1:"image/biketyre.png", img2:"image/biketyre2.png", img3:"image/biketyre3.png"},
+  {image:"image/alloywheels.png", name:"Alloy Wheels", price:8000, img1:"image/alloywheels.png", img2:"image/alloywheels2.png", img3:"image/alloywheels3.png"},
+  {image:"image/carseatcover.png", name:"Car Seat Cover", price:2500, img1:"image/carseatcover.png", img2:"image/carseatcover2.png", img3:"image/carseatcover3.png"},
+  {image:"image/carcover.png", name:"Car Cover", price:1200, img1:"image/carcover.png", img2:"image/carcover2.png", img3:"image/carcover3.png"},
+  {image:"image/airfilter.png", name:"Air Filter", price:600, img1:"image/airfilter.png", img2:"image/airfilter2.png", img3:"image/airfilter3.png"},
+  {image:"image/oilfilter.png", name:"Oil Filter", price:400, img1:"image/oilfilter.png", img2:"image/oilfilter2.png", img3:"image/oilfilter3.png"},
+  {image:"image/sparkplug.png", name:"Spark Plug", price:250, img1:"image/sparkplug.png", img2:"image/sparkplug2.png", img3:"image/sparkplug3.png"},
+  {image:"image/carbatterycharger.png", name:"Car Battery Charger", price:3000, img1:"image/carbatterycharger.png", img2:"image/carbatterycharger2.png", img3:"image/carbatterycharger3.png"},
+  {image:"image/foglights.png", name:"Fog Lights", price:1800, img1:"image/foglights.png", img2:"image/foglights2.png", img3:"image/foglights3.png"},
+
+  {image:"image/clutchplate.png", name:"Clutch Plate", price:2200, img1:"image/clutchplate.png", img2:"image/clutchplate2.png", img3:"image/clutchplate3.png"},
+  {image:"image/radiator.png", name:"Radiator", price:4000, img1:"image/radiator.png", img2:"image/radiator2.png", img3:"image/radiator3.png"},
+  {image:"image/silencer.png", name:"Silencer", price:2500, img1:"image/silencer.png", img2:"image/silencer2.png", img3:"image/silencer3.png"},
+  {image:"image/wiper.png", name:"Wiper Blades", price:500, img1:"image/wiper.png", img2:"image/wiper2.png", img3:"image/wiper3.png"},
+  {image:"image/indicator.png", name:"Indicator Light", price:700, img1:"image/indicator.png", img2:"image/indicator2.png", img3:"image/indicator3.png"},
+  {image:"image/sideMirror.png", name:"Side Mirror", price:1500, img1:"image/sideMirror.png", img2:"image/sideMirror2.png", img3:"image/sideMirror3.png"},
+  {image:"image/bumper.png", name:"Car Bumper", price:3500, img1:"image/bumper.png", img2:"image/bumper2.png", img3:"image/bumper3.png"},
+  {image:"image/gearoil.png", name:"Gear Oil", price:800, img1:"image/gearoil.png", img2:"image/gearoil2.png", img3:"image/gearoil3.png"}
   ],
 
   manpower: [
@@ -227,944 +262,53 @@ img3:"image/3Dbuildingplan1.png"},
     {name:"Carpenter", price:1300}
   ],
   cement: [
-    {image:"image/ultratechcement.png",name:"UltraTech Cement", price:420},
-    {image:"image/acc.png",name:"ACC Cement", price:410},
-    {image:"image/ambuja.png",name:"Ambuja Cement", price:430},
-    {image:"image/birlacement.png",name:"Birla Cement", price:415},
-    {image:"image/shreecement.png",name:"Shree Cement", price:400}
+  {image:"image/opc53.png", name:"OPC 53 Grade Cement", price:450, img1:"image/opc53.png", img2:"image/opc53_2.png", img3:"image/opc53_3.png"},
+  {image:"image/opc43.png", name:"OPC 43 Grade Cement", price:440, img1:"image/opc43.png", img2:"image/opc43_2.png", img3:"image/opc43_3.png"},
+  {image:"image/opc33.png", name:"OPC 33 Grade Cement", price:430, img1:"image/opc33.png", img2:"image/opc33_2.png", img3:"image/opc33_3.png"},
+  {image:"image/ppc.png", name:"Portland Pozzolana Cement (PPC)", price:420, img1:"image/ppc.png", img2:"image/ppc_2.png", img3:"image/ppc_3.png"},
+  {image:"image/psc.png", name:"Portland Slag Cement (PSC)", price:430, img1:"image/psc.png", img2:"image/psc_2.png", img3:"image/psc_3.png"},
+  {image:"image/rapid.png", name:"Rapid Hardening Cement", price:480, img1:"image/rapid.png", img2:"image/rapid_2.png", img3:"image/rapid_3.png"},
+  {image:"image/quicksetting.png", name:"Quick Setting Cement", price:550, img1:"image/quicksetting.png", img2:"image/quicksetting_2.png", img3:"image/quicksetting_3.png"},
+  {image:"image/lowheat.png", name:"Low Heat Cement", price:500, img1:"image/lowheat.png", img2:"image/lowheat_2.png", img3:"image/lowheat_3.png"},
+  {image:"image/sulphateresistant.png", name:"Sulphate Resistant Cement", price:520, img1:"image/sulphateresistant.png", img2:"image/sulphateresistant_2.png", img3:"image/sulphateresistant_3.png"},
+  {image:"image/highalumina.png", name:"High Alumina Cement", price:600, img1:"image/highalumina.png", img2:"image/highalumina_2.png", img3:"image/highalumina_3.png"},
+  {image:"image/whitecement.png", name:"White Cement", price:650, img1:"image/whitecement.png", img2:"image/whitecement_2.png", img3:"image/whitecement_3.png"},
+  {image:"image/colouredcement.png", name:"Coloured Cement", price:670, img1:"image/colouredcement.png", img2:"image/colouredcement_2.png", img3:"image/colouredcement_3.png"},
+  {image:"image/hydrophobic.png", name:"Hydrophobic Cement", price:540, img1:"image/hydrophobic.png", img2:"image/hydrophobic_2.png", img3:"image/hydrophobic_3.png"},
+  {image:"image/masonry.png", name:"Masonry Cement", price:400, img1:"image/masonry.png", img2:"image/masonry_2.png", img3:"image/masonry_3.png"},
+  {image:"image/airentraining.png", name:"Air Entraining Cement", price:520, img1:"image/airentraining.png", img2:"image/airentraining_2.png", img3:"image/airentraining_3.png"},
+  {image:"image/expansive.png", name:"Expansive Cement", price:580, img1:"image/expansive.png", img2:"image/expansive_2.png", img3:"image/expansive_3.png"},
+  {image:"image/super.png", name:"Super Sulphated Cement", price:560, img1:"image/super.png", img2:"image/super_2.png", img3:"image/super_3.png"},
+  {image:"image/oilwell.png", name:"Oil Well Cement", price:700, img1:"image/oilwell.png", img2:"image/oilwell_2.png", img3:"image/oilwell_3.png"},
+  {image:"image/waterproof.png", name:"Waterproof Cement", price:530, img1:"image/waterproof.png", img2:"image/waterproof_2.png", img3:"image/waterproof_3.png"},
+  {image:"image/blended.png", name:"Blended Cement", price:410, img1:"image/blended.png", img2:"image/blended_2.png", img3:"image/blended_3.png"}
   ],
 
   steel: [
-    {name:"TMT Steel Bar", price:65},
-    {name:"JSW Steel Rod", price:70},
-    {name:"Steel Sheet", price:1200},
-    {name:"Iron Rod 10mm", price:550},
-    {name:"Steel Channel", price:900}
+  {image:"image/tmtsteelbar.png", name:"TMT Steel Bar", price:65, img1:"image/tmtsteelbar.png", img2:"image/tmtsteelbar2.png", img3:"image/tmtsteelbar3.png"},
+  {image:"image/jswsteelrod.png", name:"JSW Steel Rod", price:70, img1:"image/jswsteelrod.png", img2:"image/jswsteelrod2.png", img3:"image/jswsteelrod3.png"},
+  {image:"image/steelsheet.png", name:"Steel Sheet", price:1200, img1:"image/steelsheet.png", img2:"image/steelsheet2.png", img3:"image/steelsheet3.png"},
+  {image:"image/ironrod10mm.png", name:"Iron Rod 10mm", price:550, img1:"image/ironrod10mm.png", img2:"image/ironrod10mm2.png", img3:"image/ironrod10mm3.png"},
+  {image:"image/steelchannel.png", name:"Steel Channel", price:900, img1:"image/steelchannel.png", img2:"image/steelchannel2.png", img3:"image/steelchannel3.png"},
+
+  {image:"image/msrod.png", name:"Mild Steel Rod", price:60, img1:"image/msrod.png", img2:"image/msrod2.png", img3:"image/msrod3.png"},
+  {image:"image/hollowpipe.png", name:"Steel Hollow Pipe", price:800, img1:"image/hollowpipe.png", img2:"image/hollowpipe2.png", img3:"image/hollowpipe3.png"},
+  {image:"image/angle.png", name:"Steel Angle", price:750, img1:"image/angle.png", img2:"image/angle2.png", img3:"image/angle3.png"},
+  {image:"image/ibeam.png", name:"I-Beam Steel", price:1500, img1:"image/ibeam.png", img2:"image/ibeam2.png", img3:"image/ibeam3.png"},
+  {image:"image/hbeam.png", name:"H-Beam Steel", price:1600, img1:"image/hbeam.png", img2:"image/hbeam2.png", img3:"image/hbeam3.png"},
+
+  {image:"image/flats.png", name:"Steel Flats", price:700, img1:"image/flats.png", img2:"image/flats2.png", img3:"image/flats3.png"},
+  {image:"image/squarebar.png", name:"Square Steel Bar", price:680, img1:"image/squarebar.png", img2:"image/squarebar2.png", img3:"image/squarebar3.png"},
+  {image:"image/roundbar.png", name:"Round Steel Bar", price:650, img1:"image/roundbar.png", img2:"image/roundbar2.png", img3:"image/roundbar3.png"},
+  {image:"image/coils.png", name:"Steel Coil", price:2000, img1:"image/coils.png", img2:"image/coils2.png", img3:"image/coils3.png"},
+  {image:"image/wire.png", name:"Binding Wire", price:90, img1:"image/wire.png", img2:"image/wire2.png", img3:"image/wire3.png"},
+
+  {image:"image/galvanized.png", name:"Galvanized Steel Sheet", price:1300, img1:"image/galvanized.png", img2:"image/galvanized2.png", img3:"image/galvanized3.png"},
+  {image:"image/stainless.png", name:"Stainless Steel Sheet", price:2200, img1:"image/stainless.png", img2:"image/stainless2.png", img3:"image/stainless3.png"},
+  {image:"image/roofing.png", name:"Steel Roofing Sheet", price:1400, img1:"image/roofing.png", img2:"image/roofing2.png", img3:"image/roofing3.png"},
+  {image:"image/mesh.png", name:"Steel Mesh", price:1100, img1:"image/mesh.png", img2:"image/mesh2.png", img3:"image/mesh3.png"},
+  {image:"image/pipe.png", name:"Steel Pipe", price:850, img1:"image/pipe.png", img2:"image/pipe2.png", img3:"image/pipe3.png"}
   ],
   
 };
 
-/*===============================
-   GLOBAL STORAGE
-=================================*/
-
-let cart = JSON.parse(localStorage.getItem("cart")) || [];
-let wishlist = JSON.parse(localStorage.getItem("wishlist")) || [];
-
-/* ===============================
-   LOAD CATEGORY PAGE
-=================================*/
-if(window.location.pathname.includes("category.html")){
-
-const params = new URLSearchParams(window.location.search);
-
-let type = params.get("type");
-const search = params.get("search");
-
-const title = document.getElementById("category-title");
-const container = document.getElementById("category-products");
-
-container.innerHTML = "";
-
-// 🔥 LOOP THROUGH ALL CATEGORIES (IMPORTANT FIX)
-Object.keys(categoryProducts).forEach(category => {
-
-categoryProducts[category].forEach(product => {
-
-// ✅ SEARCH FILTER
-if(search && !product.name.toLowerCase().includes(search.toLowerCase())){
-return;
-}
-
-// ✅ TYPE FILTER (optional)
-if(type && category !== type.toLowerCase()){
-return;
-}
-
-container.innerHTML += `
-<div class="product-card">
-
-<a href="product.html?name=${encodeURIComponent(product.name)}
-&price=${product.price}
-&img1=${encodeURIComponent(product.img1 || product.image)}
-&img2=${encodeURIComponent(product.img2 || product.image)}
-&img3=${encodeURIComponent(product.img3 || product.image)}">
-
-${product.image ? `<img src="${product.image}" class="product-img">` : ""}
-
-<h4>${product.name}</h4>
-<p>₹${product.price}</p>
-
-</a>
-
-<div class="cart-row">
-
-  <!-- QTY -->
-  <div class="qty-control">
-    <button onclick="decreaseQty('${product.name}')">-</button>
-    <span id="qty-${product.name.replace(/\s/g,'')}">1</span>
-    <button onclick="increaseQty('${product.name}')">+</button>
-  </div>
-
-  <!-- ADD -->
-  <button class="add-btn"
-    onclick="addToCartWithQty('${product.name}', ${product.price}, '${product.image}')">
-    ADD
-  </button>
-
-
-<button onclick="addToWishlist('${product.name}',${product.price},'${product.image}')">
-❤️ 
-</button>
-</div>
-`;
-
-});
-
-});
-
-// title update
-if(search){
-title.innerText = "SEARCH RESULTS: " + search.toUpperCase();
-}else if(type){
-title.innerText = type.toUpperCase() + " PRODUCTS";
-}else{
-title.innerText = "ALL PRODUCTS";
-}
-
-updateCartCount();
-}
-
-function goCategory(type){
-window.location.href = "category.html?type=" + type;
-}
-
-
-/* ===============================
-   UPDATE CART COUNT (WORKS EVERYWHERE)
-=================================*/
-
-function updateCartCount(){
-  const cartCount = document.getElementById("cart-count");
-  if(cartCount){
-    const total = cart.reduce((sum,item)=> sum + (item.quantity || 1),0);
-    cartCount.innerText = total;
-  }
-}
-
-updateCartCount();
-
-/* ===============================
-   QTY SYSTEM
-=================================*/
-let selectedQty = {}
-
-// ➕ INCREASE
-function increaseQty(name){
-
-  let id = name.replace(/\s/g,'')
-
-  if(!selectedQty[name]){
-    selectedQty[name] = 1
-  }
-
-  selectedQty[name]++
-
-  document.getElementById("qty-" + id).innerText = selectedQty[name]
-}
-
-// ➖ DECREASE
-function decreaseQty(name){
-
-  let id = name.replace(/\s/g,'')
-
-  if(!selectedQty[name]){
-    selectedQty[name] = 1
-  }
-
-  if(selectedQty[name] > 1){
-    selectedQty[name]--
-  }
-
-  document.getElementById("qty-" + id).innerText = selectedQty[name]
-}
-/* ===============================
-   ADD TO CART WITH QTY
-=================================*/
-function addToCartWithQty(name, price, image){
-
-  let qty = selectedQty[name] || 1
-
-  let existing = cart.find(item => item.name === name)
-
-  if(existing){
-    existing.quantity += qty
-  } else {
-    cart.push({
-      name,
-      price,
-      image,
-      quantity: qty
-    })
-  }
-
-  localStorage.setItem("cart", JSON.stringify(cart))
-
-  updateCartCount()
-  alert("✔ Added " + qty + " items")
-}
-
-/* ===============================
-   WISHLIST
-=================================*/
-function addToWishlist(name, price, image){
-
-  let exists = wishlist.find(item => item.name === name);
-  if(exists){
-    alert("Already in Wishlist ❤️");
-    return;
-  }
-
-  wishlist.push({ name, price, image });
-  localStorage.setItem("wishlist", JSON.stringify(wishlist));
-
-  alert("❤️ Added to Wishlist");
-}
-
-/* ===============================
-   DISPLAY CART PAGE
-=================================*/
-
-if(document.getElementById("cart-items")){
-  displayCart();
-  showRecommended();   // ✅ ADD THIS LINE
-}
-let discount = 0
-
-function displayCart(){
-
-const container = document.getElementById("cart-items")
-const totalBox = document.getElementById("total-price")
-
-container.innerHTML = ""
-
-let total = 0
-
-cart.forEach((item,index)=>{
-
-let itemTotal = item.price * item.quantity
-total += itemTotal
-
-container.innerHTML += `
-<div class="cart-item">
-
-<div class="cart-left">
-<img src="${item.image}">
-
-<div class="cart-details">
-<h4>${item.name}</h4>
-<p>₹${item.price} x ${item.quantity}</p>
-<small>Total: ₹${itemTotal}</small>
-</div>
-</div>
-
- <div class="quantity-box">
-      <button onclick="decreaseCartQty(${index})">-</button>
-      <span>${item.quantity}</span>
-      <button onclick="increaseCartQty(${index})">+</button>
-    </div>
-
-</div>
-`
-})
-
-let delivery = 40
-let platform = 5
-
-// ✅ GET CURRENT COUPON
-let applied = document.getElementById("coupon-input")?.value?.toUpperCase()
-
-let discount = 0
-
-if(applied === "RRANDO123"){
-  discount = Math.floor(total * 0.2)
-}
-else if(applied === "SAVE200"){
-  discount = 200
-}
-else if(applied === "NEWUSER09"){
-  delivery = 0
-}
-
-let final = total + delivery + platform - discount
-// ✅ UPDATE UI
-totalBox.innerHTML = `
-<p>Subtotal: ₹${total}</p>
-<p>Delivery: ₹${delivery} ${delivery === 0 ? "(Free 🎉)" : ""}</p>
-<p>Platform Fee: ₹${platform}</p>
-<p style="color:green;">Discount: -₹${discount}</p>
-<h3>Total: ₹${final}</h3>
-`
-}
-
-function toggleCoupons(){
-let box = document.getElementById("coupon-list")
-
-if(box.style.display === "none"){
-box.style.display = "block"
-}else{
-box.style.display = "none"
-}
-}
-
-// APPLY FROM CLICK
-function applyCouponCode(code){
-document.getElementById("coupon-input").value = code
-applyCoupon()
-}
-
-function applyCouponAndGo(code){
-
-// save coupon
-localStorage.setItem("appliedCoupon", code)
-
-// go back to cart
-window.location.href = "cart.html"
-}
-
-function applyCoupon(){
-
-let code = document.getElementById("coupon-input").value.toUpperCase().trim()
-
-  localStorage.setItem("appliedCoupon", code)
-
-  displayCart()
-}
-
-function goToCoupons(){
-window.location.href = "coupons.html"
-}
-
-function increaseCartQty(index){
-  cart[index].quantity++
-  localStorage.setItem("cart", JSON.stringify(cart))
-  displayCart()
-  updateCartCount()
-}
-
-function decreaseCartQty(index){
-  if(cart[index].quantity > 1){
-    cart[index].quantity--
-  }
-  localStorage.setItem("cart", JSON.stringify(cart))
-  displayCart()
-  updateCartCount()
-}
-
-/*7/4/26*/
-function showRecommended(){
-
-  let container = document.getElementById("recommended-products");
-  if(!container) return;
-
-  container.innerHTML = "";
-
-  let cart = JSON.parse(localStorage.getItem("cart")) || [];
-
-  if(cart.length === 0) return;
-
-  // 👉 take first cart item (simple logic)
-  let firstItem = cart[0].name.toLowerCase();
-
-  let suggestions = [];
-
-  // 🔥 FIND SIMILAR PRODUCTS
-  Object.keys(categoryProducts).forEach(category => {
-
-    categoryProducts[category].forEach(product => {
-
-      // skip already in cart
-      let exists = cart.find(item => item.name === product.name);
-      if(exists) return;
-
-      // simple matching (same category keyword)
-      if(firstItem.includes(category)){
-        suggestions.push(product);
-      }
-
-    });
-
-  });
-
-  // 👉 if no match, show random products
-  if(suggestions.length === 0){
-    suggestions = Object.values(categoryProducts).flat().slice(0,4);
-  }
-
-  // 👉 show only 3–4 products
-  suggestions.slice(0,4).forEach(product => {
-
-    container.innerHTML += `
-      <div class="product-card">
-        ${product.image ? `<img src="${product.image}" class="product-img">` : ""}
-        <h4>${product.name}</h4>
-        <p>₹${product.price}</p>
-
-        <button onclick="addToCart('${product.name}', ${product.price}, '${product.image}')">
-  ADD
-</button>
-      </div>
-    `;
-  });
-
-}
-/* ===============================
-   REMOVE FROM CART
-=================================*/
-
-function removeFromCart(index){
-  cart.splice(index,1);
-  localStorage.setItem("cart", JSON.stringify(cart));
-  displayCart();
-  updateCartCount();
-}
-
-/* ===============================
-   DISPLAY WISHLIST PAGE
-=================================*/
-
-if(document.getElementById("wishlist-items")){
-  displayWishlist();
-}
-
-/*1/4/24*/
-function displayWishlist(){
-
-  const container = document.getElementById("wishlist-items");
-  if(!container) return;
-
-  container.innerHTML = "";
-
-  if(wishlist.length === 0){
-    container.innerHTML = "<p style='padding:20px;'>Your wishlist is empty 😢</p>";
-    return;
-  }
-
-  wishlist.forEach((item,index)=>{
-
-    container.innerHTML += `
-      <div class="wishlist-card">
-
-        <img src="${item.image}" class="wishlist-img">
-
-        <h4>${item.name}</h4>
-        <p>₹${item.price}</p>
-
-        <button class="add-cart-btn"
-          onclick="addToCart('${item.name}',${item.price},'${item.image}')">
-          Add to Cart
-        </button>
-
-        <button class="remove-btn"
-          onclick="removeFromWishlist(${index})">
-          Remove
-        </button>
-
-      </div>
-    `;
-  });
-}
-
-/* ===============================
-   REMOVE FROM WISHLIST
-=================================*/
-
-function removeFromWishlist(index){
-  wishlist.splice(index,1);
-  localStorage.setItem("wishlist", JSON.stringify(wishlist));
-  displayWishlist();
-}
-
-/* ===============================
-   CHECKOUT PAGE
-=================================*/
-
-if(document.getElementById("order-summary")){
-
-  let cart = JSON.parse(localStorage.getItem("cart")) || [];
-
-  // 🔥 FIX: check empty cart
-  if (cart.length === 0) {
-    alert("Your cart is empty ❗");
-    window.location.href = "index.html";
-    return;
-  }
-
-  let container = document.getElementById("order-summary");
-  let total = 0;
-
-  container.innerHTML = "";
-
-  cart.forEach(item=>{
-    let itemTotal = item.price * item.quantity;
-    total += itemTotal;
-
-    container.innerHTML +=
-      `<p>${item.name} x ${item.quantity} = ₹${itemTotal}</p>`;
-  });
-
-  let delivery = 40;
-  let platform = 5;
-  let discount = 0;
-
-  let finalTotal = total + delivery + platform - discount;
-
-  document.getElementById("checkout-total").innerText =
-    "Total: ₹" + finalTotal;
-}
-function proceedCheckout(){
-
-  // ✅ ADD THIS HERE (TOP)
-  let user = localStorage.getItem("currentUser");
-
-  if (!user) {
-    alert("Please login first ❗");
-    window.location.href = "login.html";
-    return;
-  }
-
-  // existing code
-  localStorage.setItem("fromCheckout", "true");
-  window.location.href = "address.html";
-}
-
-function placeOrder(){
-
-  // ✅ GET ADDRESS
-  let address = JSON.parse(localStorage.getItem("userAddress"));
-
-  if(!address){
-    alert("Please add address first 📍");
-    window.location.href = "address.html";
-    return;
-  }
-
-  // ✅ GET CART
-  let cart = JSON.parse(localStorage.getItem("cart")) || [];
-
-  if(cart.length === 0){
-    alert("Cart is empty ❌");
-    return;
-  }
-
-  // ✅ CREATE ORDER DATA
-  let orderData = {
-    items: cart,
-    total: cart.reduce((sum,item)=> sum + item.price * item.quantity, 0),
-    address: address
-  };
-
-  console.log("Sending:", orderData);
-
-  // ✅ SEND TO BACKEND
-  fetch("http://127.0.0.1:5000/create_order", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify(orderData)
-  })
-  .then(res => res.json())
-  .then(data => {
-
-    console.log("Response:", data);
-
-    if(data.error){
-      alert("Backend error: " + data.error);
-    }else{
-      alert("🎉 Order placed successfully!");
-
-      // ✅ CLEAR CART
-      localStorage.removeItem("cart");
-
-      // ✅ REDIRECT
-      setTimeout(()=>{
-        window.location.href = "index.html";
-      },1000);
-    }
-
-  })
-  .catch(err => {
-    console.error("Error:", err);
-    alert("Order failed ❌");
-  });
-
-}
-
-/* ===============================
-   SIDEBAR (IF EXISTS)
-=================================*/
-
-function toggleSidebar(){
-  const sidebar = document.getElementById("sidebar");
-  if(sidebar){
-    sidebar.style.left = sidebar.style.left === "0px" ? "-250px" : "0px";
-  }
-}
-
-function closeSidebar(){
-  const sidebar = document.getElementById("sidebar");
-  if(sidebar){
-    sidebar.style.left = "-250px";
-  }
-}
-
-/* ===============================
-   SHOW CUSTOM NOTIFICATION
-=================================*/
-
-function showMessage(text){
-  const msg = document.createElement("div");
-  msg.className = "custom-message";
-  msg.innerText = text;
-
-  document.body.appendChild(msg);
-
-  setTimeout(() => {
-    msg.classList.add("show");
-  }, 10);
-
-  setTimeout(() => {
-    msg.classList.remove("show");
-    setTimeout(()=> msg.remove(),300);
-  }, 2000);
-}
-
-
-/* ===============================
-   IMAGE AUTO SLIDER
-=================================*/
-let bannerIndex = 0;
-
-const bannerSlides = document.querySelectorAll(".banner-img");
-const bannerContainer = document.querySelector(".slides");
-
-if (bannerSlides.length > 0 && bannerContainer) {
-
-  setInterval(() => {
-
-    bannerIndex++;
-
-    if (bannerIndex >= bannerSlides.length) {
-      bannerIndex = 0;
-    }
-
-    bannerContainer.style.transform =
-      `translateX(-${bannerIndex * 100}%)`;
-
-  }, 3000);
-
-}
-
-/* ===============================
-   SEARCH
-=================================*/
-function searchProducts(){
-
-let input = document.getElementById("search-input").value.toLowerCase()
-
-let cards = document.querySelectorAll(".product-card")
-
-cards.forEach(card => {
-
-let name = card.querySelector("h4").innerText.toLowerCase()
-
-if(name.includes(input)){
-card.style.display = "block"
-}else{
-card.style.display = "none"
-}
-
-})
-
-}
-
-//
-
-function handleSearch(e){
-
-if(e.key === "Enter"){
-let value = document.getElementById("search-input").value.toLowerCase()
-window.location.href = "category.html?search=" + value
-}
-
-}
-
-// 👇👇 ADD HERE (LAST LINE OF FILE)
-
-/* ===============================
-   COUPON AUTO APPLY
-=================================*/
-// 🔥 AUTO APPLY COUPON FROM PAGE
-let savedCoupon = localStorage.getItem("appliedCoupon")
-
-if(savedCoupon){
-
-let input = document.getElementById("coupon-input")
-
-// ✅ IMPORTANT CHECK (prevents error on other pages)
-if(input){
-input.value = savedCoupon
-applyCoupon()
-}
-
-localStorage.removeItem("appliedCoupon")
-}
-
-/* ===============================
-   LOCATION (MAP + GPS)
-=================================*/
-
-let map, marker;
-
-// OPEN POPUP
-function openLocationPopup(){
-  document.getElementById("location-popup").style.display = "flex";
-  setTimeout(initMap, 300);
-}
-
-// CLOSE POPUP
-function closeLocationPopup(){
-  document.getElementById("location-popup").style.display = "none";
-}
-
-// INIT MAP
-function initMap(){
-
-  if(map) return;
-
-  map = L.map('map').setView([20.5937, 78.9629], 5);
-
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
-    maxZoom:19
-  }).addTo(map);
-
-  marker = L.marker([20.5937, 78.9629], {draggable:true}).addTo(map);
-
-  getCurrentLocation();
-
-  marker.on('dragend', function(){
-    let pos = marker.getLatLng();
-    getAddress(pos.lat, pos.lng);
-  });
-}
-
-// GET ADDRESS
-async function getAddress(lat, lng){
-  try{
-    let res = await fetch(
-      `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lng}&format=json`
-    );
-    let data = await res.json();
-
-    let el = document.getElementById("selected-address");
-    if(el){
-      el.innerText = data.display_name;
-    }
-
-  }catch(err){
-    console.log(err);
-  }
-}
-
-// GPS
-function getCurrentLocation(){
-
-  if(navigator.geolocation){
-
-    navigator.geolocation.getCurrentPosition(position => {
-
-      let lat = position.coords.latitude;
-      let lng = position.coords.longitude;
-
-      map.setView([lat, lng], 15);
-      marker.setLatLng([lat, lng]);
-
-      getAddress(lat, lng);
-
-    });
-
-  }else{
-    alert("Geolocation not supported ❌");
-  }
-}
-
-// SEARCH LOCATION
-
-// ✅ CONFIRM LOCATION (FINAL)
- // UPDATE NAVBAR
-  
-
-/*1/4/26*/
-async function searchLocation(e){
-
-  if(e.key !== "Enter") return
-
-  let query = document.getElementById("location-search").value
-
-  if(!query) return
-
-  try{
-    let res = await fetch(`https://nominatim.openstreetmap.org/search?q=${query}&format=json`)
-    let data = await res.json()
-
-    if(data.length === 0){
-      alert("Location not found ❌")
-      return
-    }
-
-    let lat = data[0].lat
-    let lon = data[0].lon
-
-    // move map
-    map.setView([lat, lon], 15)
-    marker.setLatLng([lat, lon])
-
-    // update address
-    getAddress(lat, lon)
-
-  }catch(err){
-    console.log(err)
-    alert("Search failed ❌")
-  }
-}
-
-
-// ==========================
-// ✅ ADD HERE (AFTER ABOVE FUNCTION)
-// ==========================
-let userType = localStorage.getItem("userType");
-let btn = document.getElementById("auth-btn");
-
-if(btn){
-  if(userType === "user"){
-   btn.innerHTML = '<a href="profile.html"><i class="fa-solid fa-user"></i></a>';
-  } else {
-    btn.innerHTML = '<a href="login.html"><i class="fa-solid fa-user"></i></a>';  }
-}
-
-
-// ==========================
-// ✅ CONFIRM LOCATION (FIXED)
-// ==========================
-
-function confirmLocation(){
-
-  let address = document.getElementById("selected-address").innerText;
-
-  if(!address || address.includes("Select") || address.includes("Detect")){
-    alert("Please select location ❌");
-    return;
-  }
-
-  // ✅ SAVE LOCATION
-  localStorage.setItem("selectedLocation", address);
-
-  localStorage.setItem("userAddress", JSON.stringify({
-    name: localStorage.getItem("userName") || "User",
-    phone: "",
-    street: address,
-    city: ""
-  }));
-
-  // ✅ UPDATE NAVBAR TEXT
-  let el = document.getElementById("selected-location");
-  if(el){
-    let parts = address.split(",");
-    el.innerText = parts[0] + (parts[1] ? ", " + parts[1] : "");
-  }
-
-  // ✅ CLOSE POPUP
-  closeLocationPopup();
-}
-/* ===============================
-   SAVED ADDRESSES (OPTIONAL)
-=================================*/
-
-function loadSavedAddresses(){
-  fetch("http://127.0.0.1:5000/get_addresses")
-  .then(res => res.json())
-  .then(data => {
-
-    let container = document.getElementById("saved-addresses")
-    if(!container) return
-
-    container.innerHTML = ""
-
-    data.forEach(addr => {
-      container.innerHTML += `
-      <div class="address-card" onclick="selectAddress('${addr.city}')">
-        ${addr.name} - ${addr.city}
-      </div>`
-    })
-
-  })
-}
-
-function selectAddress(city){
-  document.getElementById("selected-location").innerText = city
-  localStorage.setItem("selectedLocation", city)
-  closeLocationPopup()
-}
-////////////////////  
-// ✅ RUN ONLY IN INDEX PAGE
-if(window.location.pathname.includes("index.html")){
-
-  let ask = localStorage.getItem("askLocation")
-
-  if(ask === "true"){
-
-    // ⏳ small delay (IMPORTANT)
-    setTimeout(() => {
-      openLocationPopup()
-    }, 500)
-
-    localStorage.removeItem("askLocation")
-  }
-}
-if(window.location.pathname.includes("index.html")){
-
-  let saved = localStorage.getItem("selectedLocation");
-
-  if(saved){
-    let el = document.getElementById("selected-location");
-
-    if(el){
-
-      let parts = saved.split(",");
-      let shortLocation = parts[0] + (parts[1] ? ", " + parts[1] : "");
-
-      el.innerText = shortLocation;
-
-    }
-  }
-
-}
-
-// SHOW ADDRESS IN CHECKOUT
-if(document.getElementById("delivery-address")){
-
-  let address = JSON.parse(localStorage.getItem("userAddress"))
-
-  if(address){
-    document.getElementById("delivery-address").innerHTML = `
-      <h3>📍 Deliver To:</h3>
-      <p>${address.street}</p>
-    `
-  }
-}
-
-// CHANGE ADDRESS BUTTON
-function changeAddress(){
-  window.location.href = "address.html"
-}
