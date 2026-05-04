@@ -5,19 +5,41 @@
 const categoryProducts = {
 
   architecture: [
-    {image:"image/3Dbuildingplan.png",name:"3D Building Plan", price:2500,img1:"image/3Dbuildingplan.png",
-img2:"image/3Dplanning2.png",
-img3:"image/3Dbuildingplan1.png"},
-    {image:"image/interior.png",name:"Interior Design Layout", price:4000},
-    {image:"image/structural.png",name:"Structural Drawing", price:3500},
-    {image:"image/elevation.png",name:"Elevation Plan", price:2000},
-    {image:"image/siteplanning.png",name:"Site Planning Design", price:5000},
-    {image:"image/modernvilla.png", name:"Modern Villa Design", price:6500},
-  {image:"image/commercialplan.png", name:"Commercial Building Plan", price:8000},
-  {image:"image/houseblueprint.png", name:"House Blueprint", price:3000},
-  {image:"image/landscapeplan.png", name:"Landscape Design Plan", price:4500},
-  {image: "image/apartmentfloor.png",name: "Apartment Floor Plan",price: 3200},
-  {image: "image/duplexhouseplan.png",name: "Duplex House Plan",price: 5500}
+  {image:"image/3Dbuildingplan.png", name:"3D Building Plan", price:2500, img1:"image/3Dbuildingplan.png", img2:"image/3Dplanning2.png", img3:"image/3Dbuildingplan1.png"},
+  {image:"image/interior.png", name:"Interior Design Layout", price:4000, img1:"image/interior.png", img2:"image/interior2.png", img3:"image/interior3.png"},
+  {image:"image/structural.png", name:"Structural Drawing", price:3500, img1:"image/structural.png", img2:"image/structural2.png", img3:"image/structural3.png"},
+  {image:"image/elevation.png", name:"Elevation Plan", price:2000, img1:"image/elevation.png", img2:"image/elevation2.png", img3:"image/elevation3.png"},
+  {image:"image/siteplanning.png", name:"Site Planning Design", price:5000, img1:"image/siteplanning.png", img2:"image/siteplanning2.png", img3:"image/siteplanning3.png"},
+
+  {image:"image/modernvilla.png", name:"Modern Villa Design", price:6500, img1:"image/modernvilla.png", img2:"image/modernvilla2.png", img3:"image/modernvilla3.png"},
+  {image:"image/commercialplan.png", name:"Commercial Building Plan", price:8000, img1:"image/commercialplan.png", img2:"image/commercialplan2.png", img3:"image/commercialplan3.png"},
+  {image:"image/houseblueprint.png", name:"House Blueprint", price:3000, img1:"image/houseblueprint.png", img2:"image/houseblueprint2.png", img3:"image/houseblueprint3.png"},
+  {image:"image/landscapeplan.png", name:"Landscape Design Plan", price:4500, img1:"image/landscapeplan.png", img2:"image/landscapeplan2.png", img3:"image/landscapeplan3.png"},
+  {image:"image/apartmentfloor.png", name:"Apartment Floor Plan", price:3200, img1:"image/apartmentfloor.png", img2:"image/apartmentfloor2.png", img3:"image/apartmentfloor3.png"},
+
+  {image:"image/duplexhouseplan.png", name:"Duplex House Plan", price:5500, img1:"image/duplexhouseplan.png", img2:"image/duplexhouseplan2.png", img3:"image/duplexhouseplan3.png"},
+  {image:"image/bungalowdesign.png", name:"Bungalow Design", price:6000, img1:"image/bungalowdesign.png", img2:"image/bungalowdesign2.png", img3:"image/bungalowdesign3.png"},
+  {image:"image/farmhouseplan.png", name:"Farmhouse Plan", price:5200, img1:"image/farmhouseplan.png", img2:"image/farmhouseplan2.png", img3:"image/farmhouseplan3.png"},
+  {image:"image/rowhouse.png", name:"Row House Design", price:4800, img1:"image/rowhouse.png", img2:"image/rowhouse2.png", img3:"image/rowhouse3.png"},
+  {image:"image/highrise.png", name:"High Rise Building Plan", price:9000, img1:"image/highrise.png", img2:"image/highrise2.png", img3:"image/highrise3.png"},
+
+  {image:"image/officeinterior.png", name:"Office Interior Design", price:7000, img1:"image/officeinterior.png", img2:"image/officeinterior2.png", img3:"image/officeinterior3.png"},
+  {image:"image/shopdesign.png", name:"Shop Design Plan", price:4200, img1:"image/shopdesign.png", img2:"image/shopdesign2.png", img3:"image/shopdesign3.png"},
+  {image:"image/showroom.png", name:"Showroom Design", price:7500, img1:"image/showroom.png", img2:"image/showroom2.png", img3:"image/showroom3.png"},
+  {image:"image/hospitalplan.png", name:"Hospital Building Plan", price:8500, img1:"image/hospitalplan.png", img2:"image/hospitalplan2.png", img3:"image/hospitalplan3.png"},
+  {image:"image/schoolplan.png", name:"School Building Plan", price:8000, img1:"image/schoolplan.png", img2:"image/schoolplan2.png", img3:"image/schoolplan3.png"},
+
+  {image:"image/warehouse.png", name:"Warehouse Design", price:6000, img1:"image/warehouse.png", img2:"image/warehouse2.png", img3:"image/warehouse3.png"},
+  {image:"image/factoryplan.png", name:"Factory Layout Plan", price:9500, img1:"image/factoryplan.png", img2:"image/factoryplan2.png", img3:"image/factoryplan3.png"},
+  {image:"image/bridgeplan.png", name:"Bridge Structural Design", price:10000, img1:"image/bridgeplan.png", img2:"image/bridgeplan2.png", img3:"image/bridgeplan3.png"},
+  {image:"image/roadlayout.png", name:"Road Layout Plan", price:7000, img1:"image/roadlayout.png", img2:"image/roadlayout2.png", img3:"image/roadlayout3.png"},
+  {image:"image/urbanplanning.png", name:"Urban Planning Design", price:12000, img1:"image/urbanplanning.png", img2:"image/urbanplanning2.png", img3:"image/urbanplanning3.png"},
+
+  {image:"image/smartcity.png", name:"Smart City Design", price:15000, img1:"image/smartcity.png", img2:"image/smartcity2.png", img3:"image/smartcity3.png"},
+  {image:"image/interior3d.png", name:"3D Interior Visualization", price:5000, img1:"image/interior3d.png", img2:"image/interior3d2.png", img3:"image/interior3d3.png"},
+  {image:"image/greenbuilding.png", name:"Green Building Design", price:9000, img1:"image/greenbuilding.png", img2:"image/greenbuilding2.png", img3:"image/greenbuilding3.png"},
+  {image:"image/sustainable.png", name:"Sustainable Architecture Plan", price:9500, img1:"image/sustainable.png", img2:"image/sustainable2.png", img3:"image/sustainable3.png"},
+  {image:"image/resortdesign.png", name:"Resort Design Plan", price:11000, img1:"image/resortdesign.png", img2:"image/resortdesign2.png", img3:"image/resortdesign3.png"}
   ],
 
   foundation: [
@@ -122,57 +144,81 @@ img3:"image/3Dbuildingplan1.png"},
   ],
 
   plumbing: [
-    {image:"image/pvcpipe.png",name:"PVC Pipe", price:300},
-    {image:"image/watertap.png",name:"Water Tap", price:250},
-    {image:"image/watertank.png",name:"Water Tank 500L", price:3500},
-    {image:"image/shower.png",name:"Shower Set", price:1800},
-    {image:"image/drainagepipe.png",name:"Drainage Pipe", price:400},
-    {image:"image/placeholder.png", name:"Flush Tank", price:1200},
-  {image:"image/placeholder.png", name:"Wash Basin", price:2500},
-  {image:"image/placeholder.png", name:"Toilet Seat", price:3000},
-  {image:"image/placeholder.png", name:"Hand Shower", price:900},
-  {image:"image/placeholder.png", name:"Wall Mixer Tap", price:2200},
-  {image:"image/placeholder.png", name:"Sink Pipe", price:350},
-  {image:"image/placeholder.png", name:"Ball Valve", price:180},
-  {image:"image/placeholder.png", name:"Pipe Clamp", price:120},
-  {image:"image/placeholder.png", name:"Water Filter", price:4500},
-  {image:"image/placeholder.png", name:"Overhead Shower", price:2000}
+  {image:"image/pvcpipe.png", name:"PVC Pipe", price:300, img1:"image/pvcpipe.png", img2:"image/pvcpipe2.png", img3:"image/pvcpipe3.png"},
+  {image:"image/watertap.png", name:"Water Tap", price:250, img1:"image/watertap.png", img2:"image/watertap2.png", img3:"image/watertap3.png"},
+  {image:"image/watertank.png", name:"Water Tank 500L", price:3500, img1:"image/watertank.png", img2:"image/watertank2.png", img3:"image/watertank3.png"},
+  {image:"image/shower.png", name:"Shower Set", price:1800, img1:"image/shower.png", img2:"image/shower2.png", img3:"image/shower3.png"},
+  {image:"image/drainagepipe.png", name:"Drainage Pipe", price:400, img1:"image/drainagepipe.png", img2:"image/drainagepipe2.png", img3:"image/drainagepipe3.png"},
+
+  {image:"image/flushtank.png", name:"Flush Tank", price:1200, img1:"image/flushtank.png", img2:"image/flushtank2.png", img3:"image/flushtank3.png"},
+  {image:"image/washbasin.png", name:"Wash Basin", price:2500, img1:"image/washbasin.png", img2:"image/washbasin2.png", img3:"image/washbasin3.png"},
+  {image:"image/toiletseat.png", name:"Toilet Seat", price:3000, img1:"image/toiletseat.png", img2:"image/toiletseat2.png", img3:"image/toiletseat3.png"},
+  {image:"image/handshower.png", name:"Hand Shower", price:900, img1:"image/handshower.png", img2:"image/handshower2.png", img3:"image/handshower3.png"},
+  {image:"image/wallmixertap.png", name:"Wall Mixer Tap", price:2200, img1:"image/wallmixertap.png", img2:"image/wallmixertap2.png", img3:"image/wallmixertap3.png"},
+
+  {image:"image/sinkpipe.png", name:"Sink Pipe", price:350, img1:"image/sinkpipe.png", img2:"image/sinkpipe2.png", img3:"image/sinkpipe3.png"},
+  {image:"image/ballvalve.png", name:"Ball Valve", price:180, img1:"image/ballvalve.png", img2:"image/ballvalve2.png", img3:"image/ballvalve3.png"},
+  {image:"image/pipeclamp.png", name:"Pipe Clamp", price:120, img1:"image/pipeclamp.png", img2:"image/pipeclamp2.png", img3:"image/pipeclamp3.png"},
+  {image:"image/waterfilter.png", name:"Water Filter", price:4500, img1:"image/waterfilter.png", img2:"image/waterfilter2.png", img3:"image/waterfilter3.png"},
+  {image:"image/overheadshower.png", name:"Overhead Shower", price:2000, img1:"image/overheadshower.png", img2:"image/overheadshower2.png", img3:"image/overheadshower3.png"},
+
+  {image:"image/elbowjoint.png", name:"Elbow Joint", price:90, img1:"image/elbowjoint.png", img2:"image/elbowjoint2.png", img3:"image/elbowjoint3.png"},
+  {image:"image/tjoint.png", name:"T Joint", price:100, img1:"image/tjoint.png", img2:"image/tjoint2.png", img3:"image/tjoint3.png"},
+  {image:"image/reducer.png", name:"Reducer", price:110, img1:"image/reducer.png", img2:"image/reducer2.png", img3:"image/reducer3.png"},
+  {image:"image/checkvalve.png", name:"Check Valve", price:250, img1:"image/checkvalve.png", img2:"image/checkvalve2.png", img3:"image/checkvalve3.png"},
+  {image:"image/waterpump.png", name:"Water Pump", price:6000, img1:"image/waterpump.png", img2:"image/waterpump2.png", img3:"image/waterpump3.png"}
   ],
 
   paints: [
-    {image:"image/asianpaints.png",name:"Asian Paints Premium", price:950},
-    {image:"image/bergerpaint.png",name:"Berger Paint", price:880},
-    {image:"image/wallprimer.png",name:"Wall Primer", price:600},
-    {image:"image/exteriorpaint.png",name:"Exterior Paint", price:1200},
-    {image:"image/enamelpaint.png",name:"Enamel Paint", price:750},
-    {image:"image/placeholder.png", name:"Interior Emulsion Paint", price:1100},
-  {image:"image/placeholder.png", name:"Distemper Paint", price:500},
-  {image:"image/placeholder.png", name:"Waterproof Paint", price:1300},
-  {image:"image/placeholder.png", name:"Texture Paint", price:1800},
-  {image:"image/placeholder.png", name:"Wood Polish", price:900},
-  {image:"image/placeholder.png", name:"Metal Paint", price:850},
-  {image:"image/placeholder.png", name:"Anti Damp Paint", price:1400},
-  {image:"image/placeholder.png", name:"Ceiling Paint", price:700},
-  {image:"image/placeholder.png", name:"Spray Paint", price:300},
-  {image:"image/placeholder.png", name:"Primer for Wood", price:650}
+  {image:"image/asianpaints.png", name:"Asian Paints Premium", price:950, img1:"image/asianpaints.png", img2:"image/asianpaints2.png", img3:"image/asianpaints3.png"},
+  {image:"image/bergerpaint.png", name:"Berger Paint", price:880, img1:"image/bergerpaint.png", img2:"image/bergerpaint2.png", img3:"image/bergerpaint3.png"},
+  {image:"image/wallprimer.png", name:"Wall Primer", price:600, img1:"image/wallprimer.png", img2:"image/wallprimer2.png", img3:"image/wallprimer3.png"},
+  {image:"image/exteriorpaint.png", name:"Exterior Paint", price:1200, img1:"image/exteriorpaint.png", img2:"image/exteriorpaint2.png", img3:"image/exteriorpaint3.png"},
+  {image:"image/enamelpaint.png", name:"Enamel Paint", price:750, img1:"image/enamelpaint.png", img2:"image/enamelpaint2.png", img3:"image/enamelpaint3.png"},
+
+  {image:"image/interioremulsion.png", name:"Interior Emulsion Paint", price:1100, img1:"image/interioremulsion.png", img2:"image/interioremulsion2.png", img3:"image/interioremulsion3.png"},
+  {image:"image/distemper.png", name:"Distemper Paint", price:500, img1:"image/distemper.png", img2:"image/distemper2.png", img3:"image/distemper3.png"},
+  {image:"image/waterproofpaint.png", name:"Waterproof Paint", price:1300, img1:"image/waterproofpaint.png", img2:"image/waterproofpaint2.png", img3:"image/waterproofpaint3.png"},
+  {image:"image/texturepaint.png", name:"Texture Paint", price:1800, img1:"image/texturepaint.png", img2:"image/texturepaint2.png", img3:"image/texturepaint3.png"},
+  {image:"image/woodpolish.png", name:"Wood Polish", price:900, img1:"image/woodpolish.png", img2:"image/woodpolish2.png", img3:"image/woodpolish3.png"},
+
+  {image:"image/metalpaint.png", name:"Metal Paint", price:850, img1:"image/metalpaint.png", img2:"image/metalpaint2.png", img3:"image/metalpaint3.png"},
+  {image:"image/antidamp.png", name:"Anti Damp Paint", price:1400, img1:"image/antidamp.png", img2:"image/antidamp2.png", img3:"image/antidamp3.png"},
+  {image:"image/ceilingpaint.png", name:"Ceiling Paint", price:700, img1:"image/ceilingpaint.png", img2:"image/ceilingpaint2.png", img3:"image/ceilingpaint3.png"},
+  {image:"image/spraypaint.png", name:"Spray Paint", price:300, img1:"image/spraypaint.png", img2:"image/spraypaint2.png", img3:"image/spraypaint3.png"},
+  {image:"image/woodprimer.png", name:"Primer for Wood", price:650, img1:"image/woodprimer.png", img2:"image/woodprimer2.png", img3:"image/woodprimer3.png"},
+
+  {image:"image/acrylicpaint.png", name:"Acrylic Paint", price:750, img1:"image/acrylicpaint.png", img2:"image/acrylicpaint2.png", img3:"image/acrylicpaint3.png"},
+  {image:"image/latexpaint.png", name:"Latex Paint", price:800, img1:"image/latexpaint.png", img2:"image/latexpaint2.png", img3:"image/latexpaint3.png"},
+  {image:"image/oilpaint.png", name:"Oil Paint", price:900, img1:"image/oilpaint.png", img2:"image/oilpaint2.png", img3:"image/oilpaint3.png"},
+  {image:"image/epoxypaint.png", name:"Epoxy Paint", price:1500, img1:"image/epoxypaint.png", img2:"image/epoxypaint2.png", img3:"image/epoxypaint3.png"},
+  {image:"image/heatresistant.png", name:"Heat Resistant Paint", price:1600, img1:"image/heatresistant.png", img2:"image/heatresistant2.png", img3:"image/heatresistant3.png"}
   ],
 
   tiles: [
-    {image:"image/granitetiles.png",name:"Granite Tiles", price:75},
-    {image:"image/marbletiles.png",name:"Marble Tiles", price:90},
-    {image:"image/floortiles.png",name:"Floor Tiles", price:60},
-    {image:"image/bathroomtiles.png",name:"Bathroom Tiles", price:85},
-    {image:"image/walltiles.png",name:"Wall Tiles", price:55},
-    {image:"image/placeholder.png", name:"Vitrified Tiles", price:95},
-  {image:"image/placeholder.png", name:"Ceramic Tiles", price:70},
-  {image:"image/placeholder.png", name:"Porcelain Tiles", price:110},
-  {image:"image/placeholder.png", name:"Kitchen Tiles", price:80},
-  {image:"image/placeholder.png", name:"Outdoor Tiles", price:120},
-  {image:"image/placeholder.png", name:"Parking Tiles", price:100},
-  {image:"image/placeholder.png", name:"Wood Finish Tiles", price:130},
-  {image:"image/placeholder.png", name:"Anti-Skid Tiles", price:115},
-  {image:"image/placeholder.png", name:"Designer Tiles", price:150},
-  {image:"image/placeholder.png", name:"Glass Mosaic Tiles", price:200}
+  {image:"image/granitetiles.png", name:"Granite Tiles", price:75, img1:"image/granitetiles.png", img2:"image/granitetiles2.png", img3:"image/granitetiles3.png"},
+  {image:"image/marbletiles.png", name:"Marble Tiles", price:90, img1:"image/marbletiles.png", img2:"image/marbletiles2.png", img3:"image/marbletiles3.png"},
+  {image:"image/floortiles.png", name:"Floor Tiles", price:60, img1:"image/floortiles.png", img2:"image/floortiles2.png", img3:"image/floortiles3.png"},
+  {image:"image/bathroomtiles.png", name:"Bathroom Tiles", price:85, img1:"image/bathroomtiles.png", img2:"image/bathroomtiles2.png", img3:"image/bathroomtiles3.png"},
+  {image:"image/walltiles.png", name:"Wall Tiles", price:55, img1:"image/walltiles.png", img2:"image/walltiles2.png", img3:"image/walltiles3.png"},
+
+  {image:"image/vitrifiedtiles.png", name:"Vitrified Tiles", price:95, img1:"image/vitrifiedtiles.png", img2:"image/vitrifiedtiles2.png", img3:"image/vitrifiedtiles3.png"},
+  {image:"image/ceramictiles.png", name:"Ceramic Tiles", price:70, img1:"image/ceramictiles.png", img2:"image/ceramictiles2.png", img3:"image/ceramictiles3.png"},
+  {image:"image/porcelaintiles.png", name:"Porcelain Tiles", price:110, img1:"image/porcelaintiles.png", img2:"image/porcelaintiles2.png", img3:"image/porcelaintiles3.png"},
+  {image:"image/kitchentiles.png", name:"Kitchen Tiles", price:80, img1:"image/kitchentiles.png", img2:"image/kitchentiles2.png", img3:"image/kitchentiles3.png"},
+  {image:"image/outdoortiles.png", name:"Outdoor Tiles", price:120, img1:"image/outdoortiles.png", img2:"image/outdoortiles2.png", img3:"image/outdoortiles3.png"},
+
+  {image:"image/parkingtiles.png", name:"Parking Tiles", price:100, img1:"image/parkingtiles.png", img2:"image/parkingtiles2.png", img3:"image/parkingtiles3.png"},
+  {image:"image/woodfinishtiles.png", name:"Wood Finish Tiles", price:130, img1:"image/woodfinishtiles.png", img2:"image/woodfinishtiles2.png", img3:"image/woodfinishtiles3.png"},
+  {image:"image/antiskidtiles.png", name:"Anti-Skid Tiles", price:115, img1:"image/antiskidtiles.png", img2:"image/antiskidtiles2.png", img3:"image/antiskidtiles3.png"},
+  {image:"image/designertiles.png", name:"Designer Tiles", price:150, img1:"image/designertiles.png", img2:"image/designertiles2.png", img3:"image/designertiles3.png"},
+  {image:"image/glassmosaic.png", name:"Glass Mosaic Tiles", price:200, img1:"image/glassmosaic.png", img2:"image/glassmosaic2.png", img3:"image/glassmosaic3.png"},
+
+  {image:"image/subwaytiles.png", name:"Subway Tiles", price:85, img1:"image/subwaytiles.png", img2:"image/subwaytiles2.png", img3:"image/subwaytiles3.png"},
+  {image:"image/digitaltiles.png", name:"Digital Printed Tiles", price:140, img1:"image/digitaltiles.png", img2:"image/digitaltiles2.png", img3:"image/digitaltiles3.png"},
+  {image:"image/doublecharged.png", name:"Double Charged Tiles", price:160, img1:"image/doublecharged.png", img2:"image/doublecharged2.png", img3:"image/doublecharged3.png"},
+  {image:"image/fullbodytiles.png", name:"Full Body Tiles", price:170, img1:"image/fullbodytiles.png", img2:"image/fullbodytiles2.png", img3:"image/fullbodytiles3.png"},
+  {image:"image/terracottatiles.png", name:"Terracotta Tiles", price:125, img1:"image/terracottatiles.png", img2:"image/terracottatiles2.png", img3:"image/terracottatiles3.png"}
   ],
 
   pipes: [
